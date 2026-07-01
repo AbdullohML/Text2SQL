@@ -1,0 +1,10 @@
+transformers
+accelerate
+sentencepiece
+scikit-learn
+pandas==2.2.2
+datasets<4.0.0
+torch
+peft
+bitsandbytes
+pyyaml

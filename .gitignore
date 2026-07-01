@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Data/cache
+.cache/
+data/
+hf_cache/
+
+# Training outputs/checkpoints/models
+runs/
+outputs/
+checkpoints/
+wandb/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+adapter_model.bin
+adapter_model.safetensors
+
+# Logs
+*.log
+
+# Keep folders
+!notebooks/.gitkeep
+!docs/.gitkeep
