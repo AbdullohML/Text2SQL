@@ -1,0 +1,21 @@
+experiment_name: gpt2-full
+model_name: gpt2
+dataset_name: Salesforce/wikisql
+model_type: causal
+
+use_full_train: true
+train_size: 10000
+valid_size: 1000
+test_size: 1000
+
+max_length: 384
+max_target_length: 128
+
+batch_size: 4
+gradient_accumulation_steps: 8
+epochs: 2
+learning_rate: 0.00005
+weight_decay: 0.01
+seed: 42
+
+output_dir: runs/gpt2-full
